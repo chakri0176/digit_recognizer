@@ -1,11 +1,9 @@
-# test.py (Final Corrected Version)
-
 import gradio
 import pickle
 import numpy as np
 from PIL import Image, ImageOps
 
-# It seems you have a Keras model saved via pickle. Let's load it.
+#Let's load the pkl file
 MODEL_FILENAME = 'model.pkl'  # <-- Make sure this is your file's name
 
 try:
